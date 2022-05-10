@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <h1 style="text-align: center">THE MONTY GYM</h1>
+    <h3 style="text-align: center">BE WHAT YOU WANT TO BE</h3>
+    <h4 style="text-align: center">PLEASE FILL IN THE FORM BELOW</h4>
+    <style>
+        form{
+            margin: 20px;
+            border: 2px solid navy;
+            background-image:url("IMAGES/GYM (3).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            padding: 10px;
+        }
+        .contactinput{
+            padding: 2px;
+            margin: 8px;
+            width: 100%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<form action="#">
+    <div>
+        <label style="color: palegreen">First Name</label><br>
+        <input class="contactinput" type="text" name="first name"><br>
+        <label style="color: palegreen">Second Name</label><br>
+        <input class="contactinput" type="text" name="Second Name"><br>
+    </div>
+    <div>
+        <label style="color: palegreen">eMail Address</label><br>
+        <input class="contactinput" type="email"name="emailaddress"><br>
+        <label style="color: palegreen">Phone Number</label><br>
+        <input class="contactinput" type="tel"name="phone number"><br>
+    </div>
+    <div>
+        <label style="color: palegreen">Date of Birth</label><br>
+        <input class="contactinput" type="date"name="dob"><br>
+        <label style="color: palegreen">Date of Admission</label><br>
+        <input class="contactinput" type="datetime-local"name="doa"><br>
+    </div>
+    <div>
+        <label style="color: palegreen">County</label>
+        <select name="county" id="county">
+            <option class="contactinput" value="Nairobi"></option>
+            <option class="contactinput" value="Kisumu"></option>
+            <option class="contactinput" value="Baringo"></option>
+            <option class="contactinput" value="Mombasa"></option>
+        </select>
+    </div>
+    <div>
+        <label style="color: palegreen">Gender</label><br>
+        <input class="contactinput" type="radio" name="gender" value="male">
+        <label style="color: palegreen">Male</label>
+        <input class="contactinput" type="radio" name="gender" value="female">
+        <label style="color: palegreen">Female</label>
+    </div>
+    <div>
+        <label style="color: palegreen">More Informatiom</label>
+        <textarea name="aoi" id="aoi"cols="50" rows="50"></textarea>
+    </div>
+    <div>
+        <input  class="contactinput" type="submit" name="submit" value="SUBMIT">
+    </div>
+
+</form>
+
+
+
+</body>
+</html>

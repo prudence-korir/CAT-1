@@ -1,0 +1,39 @@
+.topnav{
+    background-color: lightgrey;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color black;
+}
+.topnav a:hover{
+    background-color: black;
+    color: lightgrey;
+}
+.landimg{
+    background-image: url("IMAGES/GYM.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    height: 500px;
+}
+.landtext{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(_50%, _50%);
+}
+.landbtn{
+    background-color: lightgrey;
+    padding: 12px 12px;
+    color: black;
+    border-radius: 8px;
+    width: 40%;
+    border: none;
+    font-size: large;
